@@ -39,4 +39,4 @@ source ./config
 # export the function above 
 export -f process_yeast
 # run the function in parallel along the samples
-find "$basedir/map" -name '*bam' | rev | cut -d"/" -f1 | rev | cut -d"." -f1 | sort -u | parallel -j "$nSamples" process_yeast {}
+find "$basedir/seq" -name '*.gz' | rev | cut -d"/" -f1 | rev | cut -d"_" -f1 | sort -u | parallel -j "$nSamples" process_yeast {}
