@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###########################################################
-#			                 INITIALIZATION                  	  #
+#			                 INITIALIZATION               #
 #                                                         #
 # This script initializes the environment for the sample  #
 # processing pipeline. It loads configuration parameters, #
