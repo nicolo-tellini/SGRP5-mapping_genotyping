@@ -12,6 +12,7 @@ mamba create -n mapping_calling \
     -c conda-forge -c bioconda
 ```
 In addition, https://github.com/edgardomortiz/vcf2phylip is required.
+Be sure ```vcf2phylip.py``` is in scr and you can execute it.
 
 ## dir tree
 ```
