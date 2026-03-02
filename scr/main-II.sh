@@ -57,4 +57,4 @@ python3 $basedir/scr/vcf2phylip.py -i $gvcfdir/allbatches.vcf.gz -p -f -m 10000 
 
 # Build a Neighbor-Joining tree for rapid population structure assessment
 # FastTree is used here for speed rather than maximum likelihood optimization
-FastTree -nt -nj $gvcfdir/*.fasta  > $basedir/tree/allbathches.fasttree.nwk 2> "$basedir/scr/log/fasttree.err"
+FastTree -nt -nj $gvcfdir/*.fasta  > $basedir/allbathches.fasttree.nwk 2> "$basedir/scr/log/fasttree.err"
