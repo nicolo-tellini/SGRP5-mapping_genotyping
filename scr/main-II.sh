@@ -40,7 +40,7 @@ ls $gvcfdir/batch_* | parallel -j 4 merge_gvcf
 
 wait
 # Merge all batch-level gVCFs into a final multi-sample gVCF
-bcftools merge $gvcfdir/batch_*gz -W -Oz1 -o $gvcfdir/allbatches.gvcf.gz
+bcftools merge $gvcfdir/batch_*gz -W -Oz1 -o $gvcfdir/allbatches.gvcf.gz --force-single
 
 wait
 
