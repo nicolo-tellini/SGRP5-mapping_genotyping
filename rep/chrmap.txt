@@ -1,0 +1,16 @@
+chrI    1
+chrII   2
+chrIII  3
+chrIV   4
+chrV    5
+chrVI   6
+chrVII  7
+chrVIII 8
+chrIX   9
+chrX    10
+chrXI   11
+chrXII  12
+chrXIII 13
+chrXIV  14
+chrXV   15
+chrXVI  16
