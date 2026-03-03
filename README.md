@@ -25,3 +25,7 @@ Be sure ```vcf2phylip.py``` is in scr and you can execute it.
 ├── seq
 ├── scr
 ```
+
+Main part I run with bash. 
+
+Main part II and III need to be run manually, interventinons might be required. 
