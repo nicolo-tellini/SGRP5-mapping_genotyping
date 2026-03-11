@@ -14,9 +14,10 @@ mamba create -n mapping_calling \
     fasttree=2.2.0 \
     -c conda-forge -c bioconda
 ```
-In addition, https://github.com/edgardomortiz/vcf2phylip is required.
+In addition, 
 
-Be sure ```vcf2phylip.py``` is in scr and you can execute it.
+- [vcf2phylip](https://github.com/edgardomortiz/vcf2phylip) – tool for VCF to PHYLIP or FASTA
+- [winpca](https://github.com/MoritzBlumer/winpca) – window-based PCA along the genome 
 
 ## dir tree
 ```
